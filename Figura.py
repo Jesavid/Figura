@@ -2,10 +2,11 @@
 
 
 class Figura:
-    def __init__(self, lado=0, apotema=0, radio=0):
+    def __init__(self, lado=0, apotema=0, radio=0, pi=3.14159):
         self.lado = lado
         self.apotema = apotema,
-        self. radio = radio
+        self.radio = radio
+        self.pi = pi
 
 
     # Definicion de getters an setters
