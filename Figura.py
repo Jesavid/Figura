@@ -2,11 +2,12 @@
 
 
 class Figura:
-    def __init__(self, lado=0, apotema=0, radio=0, pi=3.14159):
+    def __init__(self, lado=0, apotema=0, radio=0, pi=3.14159, altura=0):
         self.lado = lado
         self.apotema = apotema,
         self.radio = radio
         self.pi = pi
+        self.altura = altura
 
 
     # Definicion de getters an setters
@@ -27,3 +28,9 @@ class Figura:
 
     def get_radio(self):
         return self.radio
+
+    def set_altura(self, altura):
+        self.alura = altura
+
+    def get_altura(self):
+        return self.altura
