@@ -2,7 +2,7 @@
 
 
 class Figura:
-    def __init__(self, lado, apotema, radio):
+    def __init__(self, lado=0, apotema=0, radio=0):
         self.lado = lado
         self.apotema = apotema,
         self. radio = radio
