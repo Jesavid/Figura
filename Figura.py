@@ -30,7 +30,7 @@ class Figura:
         return self.radio
 
     def set_altura(self, altura):
-        self.alura = altura
+        self.altura = altura
 
     def get_altura(self):
         return self.altura

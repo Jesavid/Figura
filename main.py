@@ -1,8 +1,10 @@
 from Cuadrado import Cuadrado
 from Circulo import Circulo
+from Triangulo import Triangulo
 def main():
     cuadrado = Cuadrado()
     circulo = Circulo()
+    triangulo = Triangulo()
 
     print("1. Cuadrado")
     print("2. Circulo")
@@ -19,6 +21,13 @@ def main():
         radio = int(input("El radio del ciruclo es: "))
         circulo.set_radio(radio)
         print(f"El área del circulo es: {circulo.areaCirculo()}")
+
+    elif (seleccion == 3):
+        base = int(input("La base del triangulo es: "))
+        triangulo.set_lado(base)
+        altura = int(input("La altura del triangulo es: "))
+        triangulo.set_altura(altura)
+        print(f'El area del triángulo es: {triangulo.areaTriangulo()}')
 
 
 
